@@ -1,2 +1,2 @@
 
-export const API = 'http://localhost/billingApp/public/api/';
+export const API = 'http://3.96.62.223/append-list-api/public/api/clients';
