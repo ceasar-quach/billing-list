@@ -1,0 +1,26 @@
+[
+    {
+        "_id":"65ecf3cde410f9d9da05bf86",
+        "client": "6399351534a6d892bb984a89",
+        "amount": "24.55",
+        "deposit": "10.00",
+        "paid": "14.55",
+        "status": "paid"
+    },
+    {
+        "_id":"65ecf6056e324d8037038717",
+        "client": "6399351534a6d892bb984a89",
+        "amount": "32.19",
+        "deposit": "0",
+        "paid": "0",
+        "status": "unpaid"
+    },
+    {
+        "_id":"6399351534a6d892bb984a90",
+        "client": "6399351534a6d892bb984a90",
+        "amount": "30.19",
+        "deposit": "0",
+        "paid": "30.19",
+        "status": "paid"
+    }
+]

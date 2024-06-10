@@ -1,0 +1,14 @@
+[
+    {
+        "_id": "6399351534a6d892bb984a89",
+        "firstname": "John",
+        "lastname": " Doe",
+        "email": "jdoe@thanhquach.tech"
+    },
+    {
+        "_id": "6399351534a6d892bb984a90",
+        "firstname": "Sue",
+        "lastname": "Doe",
+        "email": "sdoe@thanhquach.tech"
+    }
+]

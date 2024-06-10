@@ -1,0 +1,19 @@
+[
+    {
+    "tableType":"client",
+    "header":[
+        "firstname",
+        "lastname",
+        "email"
+    ]
+    },
+    {
+    "tableType":"invoice",
+    "header":[
+        "amount",
+        "deposit",
+        "paid",
+        "status"
+    ]
+    }
+]

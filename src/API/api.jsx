@@ -1,10 +1,19 @@
 import axios from "axios"
-import * as Urlconst from './const';
+
+export default class API {
+    // sample Clients API GET req
+    static async clientsIndex () {
+        return axios.get('sampleAPI/clientsAPI.json')
+    }
 
 
-export default class Api {
+    // sample Invoices API GET req
+    static async invoicesIndex () {
+        return axios.get('sampleAPI/invoiceAPI.json')
+    }
 
-    static async GetClientList () {
-        return axios.get(Urlconst.API + 'clients')
+    // sample static API GET req
+    static async getTableHeader () {
+        return axios.get('sampleAPI/tableHeaderAPI.json')
     }
 }
