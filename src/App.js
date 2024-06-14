@@ -13,7 +13,7 @@ import DeletePrompt from './components/model/deletePrompt';
 
 export default function App() {
   useEffect(() => {
-    document.title = "Reservation list"
+    document.title = "Invoice list"
   })
   const [actionPrompt, setActionPrompt] = useState([null, false])
   const [clientList, setClientList] = useState([]);
@@ -25,9 +25,9 @@ export default function App() {
   const deleteEntry = (type, data) => {
     data?
       type==='client'?
-        (()=>{setClientList(clientList.filter(client=>!data.some(item=>item===client)&&client)); setInvoiceList([])})()
+        (()=>{setClientList(clientList.filter(client=>!data.some(item=>item===client)&&client)); setInvoiceList([]); setActionPrompt([null, false])})()
         :
-        (()=>{setInvoiceList(invoiceList.filter(invoice=>!data.some(item=>item===invoice)&&invoice)); setCurrentInvoice([])})()
+        (()=>{setInvoiceList(invoiceList.filter(invoice=>!data.some(item=>item===invoice)&&invoice)); setCurrentInvoice([]); setActionPrompt([null, false])})()
     :
     setActionPrompt([null, false])  
   }
